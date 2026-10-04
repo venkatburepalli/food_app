@@ -1,5 +1,7 @@
 FROM mysql:8.4
 
+LABEL org.opencontainers.image.title="Food Application Database"
+
 COPY db-init.sql /docker-entrypoint-initdb.d/01-init.sql
 
 EXPOSE 3306
