@@ -24,7 +24,7 @@
 
        <!-- Security overrides -->
        <jackson.version>2.21.7</jackson.version>
-       <tomcat.version>10.1.58</tomcat.version>
+       <tomcat.version>10.1.60</tomcat.version>
     </properties>
 
     <dependencies>
